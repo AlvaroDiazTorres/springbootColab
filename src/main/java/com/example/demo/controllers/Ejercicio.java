@@ -16,8 +16,8 @@ public class Ejercicio {
       }
 
 
-      //http.//localhost/contar/{xxxx}
-      @GetMapping("/contar/{nombre}")
+      //http.//localhost/adjetivos/{xxxx}
+      @GetMapping("/adjetivos/{nombre}")
       public String count(@PathVariable String nombre){
 
         String n = nombre;
